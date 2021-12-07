@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4412296657619357725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4412296657619357722}
+  - component: {fileID: 4412296657619357723}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4412296657619357722
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412296657619357725}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10009.269}
+  m_LocalScale: {x: 100.09268, y: 100.09268, z: 100.09268}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4412296657619357723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412296657619357725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a288835dcb63f4193326d82fabfcfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: buttonClick
+    clip: {fileID: 8300000, guid: 86ea9c1f6df2c384bbbbc94c53075356, type: 3}
+    volume: 1
+    pitch: 1.17
+    loop: 0
+    source: {fileID: 0}
+  - name: gameStart
+    clip: {fileID: 8300000, guid: d71bdd82be14e6d47a2d7567d4668289, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: cardSwipe
+    clip: {fileID: 8300000, guid: 6ace2d01005398944b3c96b583abd24d, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: characterWalk
+    clip: {fileID: 8300000, guid: f67a4c5aa646a004f9d12d288802909b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: windBackground
+    clip: {fileID: 8300000, guid: 2211400077f832343a3fad167f4b863b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemiesSpawn
+    clip: {fileID: 8300000, guid: afeba61d51a261241bf83e3d95cd634d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: enemiesDeath
+    clip: {fileID: 8300000, guid: d7c41b1d3494e364094320a93698a414, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: nomnomAtack
+    clip: {fileID: 8300000, guid: 5a1c93210b91daa4eaf820d44cad9b36, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: nomnomHit
+    clip: {fileID: 8300000, guid: 99e80824720429b40bffa24e5d676299, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: nomnomExplosion
+    clip: {fileID: 8300000, guid: 83d151d96d77d5d47acd4db87fc69ab5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: logberAtack
+    clip: {fileID: 8300000, guid: b2e437bdfd6142540ad76db2c337f642, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: logberHit
+    clip: {fileID: 8300000, guid: e31a13177b0fdd74fb7b46b558e2ccba, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gnomeAtack
+    clip: {fileID: 8300000, guid: 72098d18236418840a706425a650bd7e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gnomeHit
+    clip: {fileID: 8300000, guid: ca9b55299ef63204bb17a9590b103801, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boonogAtack
+    clip: {fileID: 8300000, guid: 22e350ccd2422b643ae5d9430f9976e3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: boonogHit
+    clip: {fileID: 8300000, guid: eb1923f62712c7e4193082d7c8a0d6d3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierAtack
+    clip: {fileID: 8300000, guid: 9124a8c12d181084ab33a31034f529fe, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierDeath
+    clip: {fileID: 8300000, guid: 4069d1e4cd7d73c47952996ca30ec2a4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierAirSupport
+    clip: {fileID: 8300000, guid: 5c4a58080fd1aa049b31650e2b1b7fa7, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierBurstFire
+    clip: {fileID: 8300000, guid: cc5eba9d84eac554782c8e26c3692de0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierHarpoonJump
+    clip: {fileID: 8300000, guid: 5bcf57cffcfe5bc40aa45edef495a6f6, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierRegenBullet
+    clip: {fileID: 8300000, guid: 8d94456f3d55c004b86c37550ff2aa96, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: soldierWarCry
+    clip: {fileID: 8300000, guid: 781d0e1fa388fe5409c853c8c29dc038, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperAtack
+    clip: {fileID: 8300000, guid: 3835174751402f747aa2a34aed514028, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperDeath
+    clip: {fileID: 8300000, guid: 50fef8d566ba3d94397c4a39927cfefd, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperBearTrap
+    clip: {fileID: 8300000, guid: 7a3d3ce4899beb4448e8e9a8c921fb19, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperLastShot
+    clip: {fileID: 8300000, guid: ad88443f04c2b834bb9b506d848920d1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperSecondWind
+    clip: {fileID: 8300000, guid: 63dfa88c45e2abb45a39a388aedcdf32, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperLongShot
+    clip: {fileID: 8300000, guid: a20088f9c2ca22d4c981c72f503ba0b0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: sniperHeadShot
+    clip: {fileID: 8300000, guid: 79ff607945f8a504c80d9a8482b9229c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageAtack
+    clip: {fileID: 8300000, guid: 5d2473ccd4e7b5d4ea4962d78c6dc1f5, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageDeath
+    clip: {fileID: 8300000, guid: d470d0dee2914fc4da79e49de3ab609f, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageBlink
+    clip: {fileID: 8300000, guid: 957c59791e6d1a445a0c45b46c730f56, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageEnergyChain
+    clip: {fileID: 8300000, guid: d2845077d70e39e44a5866dbaa67b509, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageMagneticImpact
+    clip: {fileID: 8300000, guid: 23d69f7678c5f494d98b743c67c6dd4e, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: kineticmageHolyWish
+    clip: {fileID: 8300000, guid: 82421e920af76b24c8005ecc504219b3, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautAtack
+    clip: {fileID: 8300000, guid: 3f1dc328ec893af44986ab27c4354f64, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautDeath
+    clip: {fileID: 8300000, guid: fa447f09f40d4ab41aa8772128e3ac98, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautCannonJump
+    clip: {fileID: 8300000, guid: c388743c83652a342b8e3f6dd1db77dd, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautFling
+    clip: {fileID: 8300000, guid: 22e92e0581a7372498a4ced623d2edbc, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautGrenadeLauncher
+    clip: {fileID: 8300000, guid: b3ac07630af29524d9eaec3325171923, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautShield
+    clip: {fileID: 8300000, guid: 4adec08de6945f4499e9d74257d9ffea, type: 3}
+    volume: 0.5
+    pitch: 1.17
+    loop: 0
+    source: {fileID: 0}
+  - name: juggernautRiotShield
+    clip: {fileID: 8300000, guid: 408f31d11d5b1b64b952d08d27f5ff8c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: monsterStep
+    clip: {fileID: 8300000, guid: 0f5bd20dc0c2df54ca5569f50a7db84a, type: 3}
+    volume: 1
+    pitch: 1.17
+    loop: 1
+    source: {fileID: 0}
+  - name: maleDamage
+    clip: {fileID: 8300000, guid: 8a770861bec000244bdce99fe2d575a8, type: 3}
+    volume: 1
+    pitch: 1.17
+    loop: 0
+    source: {fileID: 0}
+  - name: femaleDamage
+    clip: {fileID: 8300000, guid: 9d449f6d5d56d6c4f94a640f82a6ac56, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: mainMenu
+    clip: {fileID: 8300000, guid: 9756aabb9b4b49b4199ca65954787391, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: gameBackground
+    clip: {fileID: 8300000, guid: ab4ed4154b46b58408f6c93ed13d4c24, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: 79283e1e573d3db4c942fa494559be56, type: 2}
+  instance: {fileID: 0}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c44f91d-d9a7-45da-b0f0-a6f8d6b8be93" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/game/Scripts/Features/LogberAttack.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/Blinck.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/EnergyChainAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/EnergyChain.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/MagneticImpact.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/HolyWish.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/HealingSyringe.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/HealingSyringeAbility.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/AbilityManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/IEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/BehaviourTree/Nodes/AttackNode.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/IAnimatable.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/Abilities/CannonJump.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Features/LogberAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Team/TeamManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/en.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/pt.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/fr.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Features/LangTranslator.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Features/Lang.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/EN.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/FR.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Resources/Language/PT.txt" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Menu/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Menu/LanguageSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/BoonogDecision.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Team/SelectedBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Team/TeamCharacter.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/SelectionManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Team/SelectionController.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Enemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/EnemyManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Boonog.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Flock/Flock.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Features/Sound/AudioManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Movement/MovementManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CameraControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Nest.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Menu/WinLoss.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Resource/Resource.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Nomnom.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Gnome.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Gnome.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Nomnom.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Logber.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Logber.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/Boonog.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Cards/CardsDatabase.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/CharacterControlers/Enemy/EnemySpawnControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Field/HexagonControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/game/Scripts/Field/FieldManager.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1mbmyfPNuytuMDR6LV7DX5G4Nte" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35016465" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../build/OtherworldSeekers\New Unity Project (1).exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\build\OtherworldSeekers" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c44f91d-d9a7-45da-b0f0-a6f8d6b8be93" name="Default Changelist" comment="" />
+      <created>1609770924458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609770924458</updated>
+      <workItem from="1609770931563" duration="25484000" />
+      <workItem from="1609804634476" duration="2556000" />
+      <workItem from="1609933111026" duration="3338000" />
+      <workItem from="1609942949856" duration="8128000" />
+      <workItem from="1609959693840" duration="2328000" />
+      <workItem from="1609968008043" duration="57000" />
+      <workItem from="1609973690401" duration="6952000" />
+      <workItem from="1609982215125" duration="77000" />
+      <workItem from="1610049307327" duration="2350000" />
+      <workItem from="1610298555668" duration="2332000" />
+      <workItem from="1610471011109" duration="4220000" />
+      <workItem from="1610480280713" duration="5188000" />
+      <workItem from="1610492328687" duration="3064000" />
+      <workItem from="1610758686349" duration="150000" />
+      <workItem from="1610982372537" duration="9391000" />
+      <workItem from="1611086980950" duration="2408000" />
+      <workItem from="1611451092334" duration="3091000" />
+      <workItem from="1611457858080" duration="286000" />
+      <workItem from="1611458287378" duration="1697000" />
+      <workItem from="1611504322380" duration="5630000" />
+      <workItem from="1611516133029" duration="62000" />
+      <workItem from="1611516439286" duration="1718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

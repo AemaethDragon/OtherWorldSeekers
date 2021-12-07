@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/game/Scenes/LanguageScene.unity
+    guid: 12567ae4a00797440b5992d2e526451a
+  - enabled: 1
+    path: Assets/game/Scenes/MenuScene.unity
+    guid: 22e43c14865479b44a1e7f2827f6f07a
+  - enabled: 1
+    path: Assets/game/Scenes/DON'T_OPEN 1.unity
+    guid: 7cb36dc7f07139c48b3e89f519e5575d
+  - enabled: 1
+    path: Assets/game/Scenes/HowToPlayScenes/HowToAttack.unity
+    guid: c1233bccb5802f5428ebae17518d3e57
+  - enabled: 1
+    path: Assets/game/Scenes/HowToPlayScenes/HowToMove.unity
+    guid: c4002cce997fff24fa4a706cbf7f0bdc
+  - enabled: 1
+    path: Assets/game/Scenes/HowToPlayScenes/HowToPlayScene.unity
+    guid: 8a44b25555d5f2d41b3be3c0b583e15d
+  - enabled: 1
+    path: Assets/game/Scenes/HowToPlayScenes/UIExplanation.unity
+    guid: 6e643240d8be5f54db980fb791377a7c
+  - enabled: 1
+    path: Assets/game/Scenes/DefeatScene.unity
+    guid: ef7d9ab775b87684688e464de32f6cd3
+  - enabled: 1
+    path: Assets/game/Scenes/VictoryScene.unity
+    guid: 4c7c75bf0e5c9dd4781cf5edaa8a79a7
+  m_configObjects: {}
